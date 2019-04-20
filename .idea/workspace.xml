@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf7e43c8-79fc-4d26-84ca-92111e33ba6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/Templates/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/Templates/blog/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/Templates/blog/templatetags/blog_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/autumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/borland.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/bw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/colorful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/emacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/friendly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/fruity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/manni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/murphy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/native.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/pastie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/perldoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/tango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/trac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/vim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/hm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/jquery-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templatetags/blog_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/autumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/borland.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/bw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/colorful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/emacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/friendly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/fruity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/manni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/murphy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/native.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/pastie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/perldoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/tango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/trac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/vim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/highlights/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/hm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/jquery-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/js/wow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/autumn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/autumn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/borland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/borland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/bw.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/bw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/colorful.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/colorful.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/emacs.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/emacs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/friendly.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/friendly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/fruity.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/fruity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/manni.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/manni.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/murphy.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/murphy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/native.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/native.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/pastie.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/pastie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/perldoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/perldoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/tango.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/tango.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/trac.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/trac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/vim.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/vim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/highlights/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/highlights/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/pace.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/pace.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/full-width.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/full-width.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/img/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q024120605147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q024120605147.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q025143024F0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q025143024F0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q02F95Q1R8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q02F95Q1R8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q02Q430239D.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q02Q430239D.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q12G61J2527-lp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q12G61J2527-lp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q130145P3A7-lp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q130145P3A7-lp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1-1Q20Q92441953-lp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1-1Q20Q92441953-lp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/1_1459221621-lp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/1_1459221621-lp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/350x164.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/350x164.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/350x164b.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/350x164b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/imgs/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/imgs/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/hm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/hm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/jquery-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/jquery-1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/jquery-2.1.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/modernizr.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/modernizr.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/pace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/pace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/js/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/js/wow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/blog/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/myblog$Test__Templates_blog_imgs.coverage" NAME="Test: Templates.blog.imgs Coverage Results" MODIFIED="1554296793832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/Templates/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/Templates/blog/contact.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/Templates/blog/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/Templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templatetags/blog_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Templates/index.html" />
+        <option value="$PROJECT_DIR$/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/Templates/base.html.py" />
+        <option value="$PROJECT_DIR$/Templates/blog/single.html" />
+        <option value="$PROJECT_DIR$/Templates/blog/detail.html" />
+        <option value="$PROJECT_DIR$/myblog/settings.py" />
+        <option value="$PROJECT_DIR$/blog/static/templatetags/blog_tags.py" />
+        <option value="$PROJECT_DIR$/Templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/Templates/base.html" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/templatetags/blog_tags.py" />
+        <option value="$PROJECT_DIR$/blog/Templates/base.html" />
+        <option value="$PROJECT_DIR$/blog/Templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/blog/Templates/blog/detail.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="663" />
+    <option name="y" value="23" />
+    <option name="width" value="753" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blog/static" />
+      <recent name="$PROJECT_DIR$/Templates" />
+      <recent name="$PROJECT_DIR$/Templates/blog/js" />
+      <recent name="$PROJECT_DIR$/Templates/blog/imgs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/static/blog" />
+      <recent name="$PROJECT_DIR$/Templates/blog" />
+      <recent name="$PROJECT_DIR$/blog/static/blog" />
+      <recent name="$PROJECT_DIR$/blog/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test: Templates.blog.imgs" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Templates.blog.imgs" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myblog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myblog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf7e43c8-79fc-4d26-84ca-92111e33ba6c" name="Default Changelist" comment="" />
+      <created>1552704305847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552704305847</updated>
+      <workItem from="1552704307111" duration="8974000" />
+      <workItem from="1553603904862" duration="2420000" />
+      <workItem from="1553910245268" duration="4449000" />
+      <workItem from="1553958060660" duration="4203000" />
+      <workItem from="1554196457776" duration="5221000" />
+      <workItem from="1554366783894" duration="1381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__Templates_blog_imgs - 2019.04.03 at 20h 41m 19s.xml">
+      <configuration name="Test: Templates.blog.imgs" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Templates_blog_imgs - 2019.04.03 at 20h 42m 02s.xml">
+      <configuration name="Test: Templates.blog.imgs" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Templates_blog_imgs - 2019.04.03 at 20h 42m 52s.xml">
+      <configuration name="Test: Templates.blog.imgs" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Templates_blog_imgs - 2019.04.03 at 20h 55m 24s.xml">
+      <configuration name="Test: Templates.blog.imgs" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Templates_blog_imgs - 2019.04.03 at 21h 06m 34s.xml">
+      <configuration name="Test: Templates.blog.imgs" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26648000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="663" y="23" width="753" height="825" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23224044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3127413" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18417463" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.03521127" />
+      <window_info anchor="right" id="Database" order="4" weight="0.48373556" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/base.html.py" />
+    <entry file="file://$PROJECT_DIR$/blog/Templates/blog/css/highlights/autumn.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog_env/lib/python3.7/site-packages/django/contrib/admindocs/templates/admin_doc/template_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Templates/blog/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog_env/lib/python3.7/site-packages/django/contrib/admindocs/templates/admin_doc/view_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog_env/lib/python3.7/site-packages/django/contrib/admindocs/templates/admin_doc/model_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/blog/single.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Templates/blog/contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Templates/blog/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templatetags/blog_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

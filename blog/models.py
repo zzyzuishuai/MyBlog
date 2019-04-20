@@ -9,9 +9,15 @@ class Category(models.Model):
     name = models.CharField(max_length=100)
 
 
+def __str__(self):
+    return self.name
 class Tag(models.Model):
     name = models.CharField(max_length=100)
 
+
+
+def __str__(self):
+    return self.name
 
 @python_2_unicode_compatible
 class Post(models.Model):
@@ -28,7 +34,7 @@ class Post(models.Model):
 
 
     def __str__(self):
-        return self.tirle
+        return self.title
 
     # 自定义 get_adsolute_url 方法
     # 记得从 django.urls 中导入 reverse 函数
